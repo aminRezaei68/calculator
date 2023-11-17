@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./assets/img/wood-textured-background.jpg);
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button:focus {
+    outline: none;    
+}
+
+.calculator {
+    width: 400px;
+    height: 550px;
+    margin-top: 5% !important;
+    margin: auto;
+    align-items: center;
+    background-color: #496076;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 5px;
+}
+
+.equal-sign {
+    background-color: #7cffc1;
+}
+
+.calculator-screen {
+    width: 90%;
+    height: 120px;
+    background-color: #efefef;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 70px;
+    text-align: right;
+}
+
+.button {
+    width: 90px;
+    height: 70px;
+    margin-top: 5px;
+    border-radius: 20px;
+    box-shadow:  2px 2px 2px 2px #5b4b4b;
+    font-size: 25px;
+}
+
+.calculator-keys {
+    width: 50px;
+    height: 100%;
+    /* margin-left: 10px; */
+    display: inline;
+    margin: 0 auto;
+}
+
+.all-clear, .button-7, .button-4, .button-1, .button-0 {
+    margin-left: 15px;
+} 
+
+
+.button-0 {
+    width: 90px;
+    height: 70px;
+}
+
+.clear {
+    clear: both;
+}
+
+.decimal {
+    margin-left: 188px;
+}
